@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: html-pv-claim
   labels:
-    app: html-webserver
+    app: html-pv-claim
 spec:
   accessModes:
     - ReadWriteOnce
